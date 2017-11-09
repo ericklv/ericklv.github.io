@@ -128,38 +128,50 @@
 						
 						<div class="row row-bottom-padded-sm animate-box">
 							<div class="col-md-3">
-								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> About Project</h3>
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Postgres</h3>
 							</div>
 							<div class="col-md-9">
-								<p class="fh5co-lead">A small example of how to use Gtk together with Python to make a simple browser. We use buttons to go back, forward and refresh the window. We set up keyboard shortcuts for ease of use.</p>
+								<p class="fh5co-lead">Q. How do I create a user account called tom and grant permission for database called jerry?</p>
+								<p class="fh5co-lead">A. You need to use following commands.</p>
+								<p class="fh5co-lead">=> adduser – UNIX/Linux adduser command to add a user to /etc/passwd file</p>
+								<p class="fh5co-lead">=> psql => It is a terminal-based front-end to PostgreSQL.</p>
+								<p class="fh5co-lead">=> CREATE USER – Adds a new user to a PostgreSQL database cluster.</p>
+								<p class="fh5co-lead">=> CREATE DATABASE – create a new database</p>
+								<p class="fh5co-lead">=> GRANT ALL PRIVILEGES – define access privileges</p>
+
+
 							</div>
 						</div>
 
 						<div class="row animate-box">
 							<div class="col-md-12" >
-								<figure><img src="images/final_view.png" class="img-responsive" alt="" width="70%" style="margin-left: 15%;margin-right: 15%" ></figure>
+								<figure><img src="images/Tarea8_0.png" class="img-responsive" alt="" width="70%" style="margin-left: 15%;margin-right: 15%" ></figure>
 							</div>
 						</div>
 
 
 						<div class="row animate-box row-bottom-padded-sm ">
 							<div class="col-md-3">
-								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> The Process</h3>
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> Before we begin...</h3>
 							</div>
 							<div class="col-md-9">
 								
-								<p class="fh5co-lead">We start with a base code where we set the size of the window. We define methods that allow us to access the history and use a button that allows us to return.</p>
-								<script src="https://gist.github.com/ericklv/7db0e7e971d05ccbb1b6cf396c7d7b57.js"></script>
+								<p class="fh5co-lead">Let's take a moment to review the tools we're going to be using:</p>
+								<ul class="fh5co-list-style-1 fh5co-inline">
+									<li><b>NodeJS</b> - We're going to use this to run JavaScript code on the server. I've decided to use the latest version of Node, v6.3.0 at the time of writing, so that we'll have access to most of the new features introduced in ES6.</li>
+									<li><b>Express</b> - As per their website, Express is a "Fast, unopinionated, minimalist web framework for Node.js", that we're going to be building our Todo list application on.</li>
+									<li><b>PostgreSQL</b> - This is a powerful open-source database that we're going to use to store our Todos. Unfortunately, details on how to install and configure PostgreSQL on your particular system fall beyond the scope of this tutorial. However, if you face issues while installing PostgreSQL, or you don't want to dive into installing it, you can opt for a version of PostgreSQL hosted online. I recommend ElephantSQL. I found it's pretty easy to get started with. However, the free version will only give you a 20MB allowance. Taking into consideration the pretty small size of the application we're building, this should be more than enough.</li>
+									<li><b>Sequelize</b> - In addition, we're going to use Sequelize, which is a database ORM that will interface with the Postgres database for us.</li>
+								</ul>
 							
 							</div>
 						</div>
+
 						<div class="row animate-box">
 							<div class="col-md-12" >
-								<figure><img src="images/tarea0_0.png" class="img-responsive" alt="" width="70%" style="margin-left: 15%;margin-right: 15%" ></figure>
-								<figure><img src="images/tarea0_1.png" class="img-responsive" alt="" width="70%" style="margin-left: 15%;margin-right: 15%" ></figure>
+								<figure><img src="images/Tarea8_6.png" class="img-responsive" alt="" width="70%" style="margin-left: 15%;margin-right: 15%" ></figure>
 							</div>
-						</div>	
-						
+						</div>
 
 						<div class="row row-bottom-padded-sm animate-box">
 							<div class="col-md-3">
@@ -168,10 +180,11 @@
 							<div class="col-md-9">
 								
 								<ul class="fh5co-list-style-1 fh5co-inline">
-									<li>Python 3.5</li>
-									<li>PyGtk</li>
-									<li>Webkit</li>
-									<li>Patience</li>
+									<li>NPM</li>
+									<li>Node JS</li>
+									<li>Express</li>
+									<li>Postgres</li>
+									<li>Sequelize</li>
 								</ul>
 								<!--<ul class="fh5co-list-style-1 fh5co-inline">
 									<li>Logo</li>
