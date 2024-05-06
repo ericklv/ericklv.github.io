@@ -13,8 +13,8 @@ let foreground = "#2e405b";
 let background = "#ffffff";
 
 if(THEME_CONFIG.themeStyle === 'dark') {
-  foreground = "#ffffff";
-  background = "#2e405b";
+  foreground = "#FFE8E1";
+  background = "#1d1e21";
 }
 
 export default defineConfig({
