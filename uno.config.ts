@@ -9,11 +9,11 @@ import { THEME_CONFIG } from "./src/theme.config";
 
 const {socials, themeStyle} = THEME_CONFIG;
 
-let foreground = "#2e405b";
-let background = "#ffffff";
+let foreground = "#1d1e21";
+let background = "#ffe8e1";
 
 if(THEME_CONFIG.themeStyle === 'dark') {
-  foreground = "#FFE8E1";
+  foreground = "#ffe8e1";
   background = "#1d1e21";
 }
 
