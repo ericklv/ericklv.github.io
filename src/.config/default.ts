@@ -9,7 +9,7 @@ export const defaultConfig: ThemeConfig = {
     subtitle: 'DevOps',
     author: 'Erick Lazon',
     description: 'A programmer\'s blog about his experiences with new technologies.',
-    website: 'ericklv.github.io/',
+    website: 'https://ericklv.github.io/',
     pageSize: 5,
     socialLinks: [
       {
