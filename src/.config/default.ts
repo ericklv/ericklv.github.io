@@ -5,28 +5,20 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: '体験談',
+    subtitle: 'DevOps',
+    author: 'Erick Lazon',
+    description: 'A programmer\'s blog about his experiences with new technologies.',
+    website: 'ericklv.github.io/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'rss',
-        href: '/atom.xml',
+        href: 'https://github.com/ericklv',
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://x.com/_ericklv_',
       },
     ],
     navLinks: [
@@ -56,14 +48,14 @@ export const defaultConfig: ThemeConfig = {
   },
   appearance: {
     theme: 'system',
-    locale: 'zh-cn',
+    locale: 'en-us',
     colorsLight: {
-      primary: '#2e405b',
-      background: '#ffffff',
+      primary: '#333333',
+      background: '#DAD7CD',
     },
     colorsDark: {
-      primary: '#FFFFFF',
-      background: '#232222',
+      primary: '#F8F4D8',
+      background: '#201F20',
     },
     fonts: {
       header:
